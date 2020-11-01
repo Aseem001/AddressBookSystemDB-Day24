@@ -9,7 +9,7 @@ Address varchar(500) not null,
 City varchar(50) not null,
 State varchar(50) not null,
 Zip int not null,
-PhoneNo int not null,
+PhoneNo bigint not null,
 Email varchar(250) not null
 );
 /*Retrieving data from table*/
